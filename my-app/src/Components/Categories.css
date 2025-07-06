@@ -1,0 +1,13 @@
+.category-content {
+    margin-top: 5%;
+    background-color: white;
+    margin-left: 8%;
+    margin-right: 8%;
+   min-height: 100px;   /* testing purpose*/
+}
+.category-image {
+    width: 200;
+    height: 70;
+    angle: 0 deg;
+    opacity: 1;
+}

@@ -1,0 +1,35 @@
+.product-category-content {
+    margin-top: 5%;
+    background-color: white;
+    margin-left: 6%;
+    margin-right: 6%;
+   min-height: 100px;   /* testing purpose*/
+   margin-bottom: 30px;
+   display: flex;
+}
+.category-image {
+
+}
+.right-side {
+    width: 48%;
+}
+.left-side {
+    width: 48%;
+    margin-right: 4rem;
+    angle: 0 deg;
+    opacity: 1;
+
+}
+.sub-images {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.sub-category-image {
+    width: 312;
+    height: 312;
+    left: 672px;
+    angle: 0 deg;
+    opacity: 1;
+
+}
