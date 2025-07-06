@@ -3,38 +3,8 @@ import './TopBar.css';
 import { useSelector } from 'react-redux';
 
 function TopBar() {
-      const { navItems } = useSelector((state) => state.reducer);
-      console.log("&&&&&&&&&&&&&&&", navItems);
-    const items = [
-            {
-                id: 1,
-                name: "Jewelleries & Accessories"
-            },
-            {
-                id: 2,
-                name: "Clothing & Shoes"
-            },
-            {
-                id: 3,
-                name: "Home & Living"
-            },
-            {
-                id: 4,
-                name: "Wedding Party"
-            },
-            {
-                id: 5,
-                name: "Toys & Entertainment"
-            },
-            {
-                id: 6,
-                name: "Art & Collectables"
-            },
-            {
-                id: 7,
-                name: "Creaft Supplies & Tools"
-            }
-        ];
+    const storeItems = useSelector((state) => state.todos);
+    const items = storeItems.navItems;
   return (
     <div className="top-bar">
       <div className='header'>

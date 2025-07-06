@@ -9,11 +9,11 @@ import { Provider } from 'react-redux'
 // import { createStore } from 'redux'
 
 // const store = createStore(reducer, {})
-import { configureStore } from '@reduxjs/toolkit'
-
-const store = configureStore({
-  reducer: reducer
-})
+// import { configureStore } from '@reduxjs/toolkit'
+import store from './store'
+// const store = configureStore({
+//   todos: reducer
+// })
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

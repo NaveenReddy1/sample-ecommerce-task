@@ -2,6 +2,14 @@ import {
   createSlice
 } from '@reduxjs/toolkit';
 
+// import cat1 from "./assets/categories/01.png";
+// import cat2 from "./assets/categories/02.png";
+// import cat3 from "./assets/categories/03.png";
+// import cat4 from "./assets/categories/04.png";
+// import cat5 from "./assets/categories/05.png";
+// const photo = require(`../../uploads/images/${obj.photo}`).default;
+// import { cat1, cat2, cat3, cat4, cat5 } from "./Components/StaticImage";
+
 const initialState = {
     navItems: [
             {
@@ -36,23 +44,28 @@ const initialState = {
       categories: [
             {
                 id: 1,
-                image: "01.png"
+                // image: cat1
+                image: require("./assets/categories/02.png").default
             },
             {
                 id: 2,
-                image: "02.png"
+                // image: cat2
+                image: require("./assets/categories/02.png").default
             },
             {
                 id: 3,
-                image: "03.png"
+                // image: cat3
+                image: require("./assets/categories/02.png").default
             },
             {
                 id: 4,
-                image: "04.png"
+                // image: cat4
+                image: require("./assets/categories/02.png").default
             },
             {
                 id: 5,
-                image: "05.png"
+                // image: cat5
+                image: require("./assets/categories/02.png").default
             }
         ]
   };
@@ -72,6 +85,6 @@ const todosSlice = createSlice({
   }
 });
 
-export const { changeState } = filtersSlice.actions
+export const { changeState } = todosSlice.actions
 
 export default todosSlice.reducer
