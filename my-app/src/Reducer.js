@@ -45,27 +45,27 @@ const initialState = {
             {
                 id: 1,
                 // image: cat1
-                image: require("./assets/categories/02.png").default
+                image: require("./assets/categories/01.png")
             },
             {
                 id: 2,
                 // image: cat2
-                image: require("./assets/categories/02.png").default
+                image: require("./assets/categories/02.png")
             },
             {
                 id: 3,
                 // image: cat3
-                image: require("./assets/categories/02.png").default
+                image: require("./assets/categories/03.png")
             },
             {
                 id: 4,
                 // image: cat4
-                image: require("./assets/categories/02.png").default
+                image: require("./assets/categories/04.png")
             },
             {
                 id: 5,
                 // image: cat5
-                image: require("./assets/categories/02.png").default
+                image: require("./assets/categories/05.png")
             }
         ]
   };
